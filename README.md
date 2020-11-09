@@ -1,55 +1,19 @@
 # demo
 
-Query Traversal:
+To do:
 
-
-You will have to write code to make 2nd row of buttons work:
-
-
-
-Next
-
-Apply next() method to #content. Then for whatever element is returned, set html to "Sibling set by next() method" also set background color to yellow
-
-
-
-Prev
-
-Apply prev() method to #content. Then for whatever element is returned, set html to "Sibling set by prev() method" also set background color to grey
-
-
-
-Closest
-
-Apply closest() method to #item1 which is a <li> element. Then for whatever element is returned, set color to orange
-
-
-
-First
-
-Apply first() method to "li" tag . Then for whatever element is returned, set background color to red
-
-
-
-Last
-
-Apply last() method to "li" tag . Then for whatever element is returned, set background color to red
-
-
-
-Filter
-
-Apply filter() method to "li" tag so that item2 is filtered. Then for whatever elements are returned, set background color to red
-
-
-
-Not
-
-Apply not() method to "li" tag and exclude item2. Then for whatever elements are returned, set background color to red
-
-
-
-Slice
-
-Apply slice() method to "li" tag. Then for whatever element is returned, set background color to red ONLY for the middle 3 list items.
-
+In the javascript file,
+Attach click event to each button using jquery
+Remember that you have to make the position as absolute in order to add animation on top (for #box inside css). 
+At any point the “box” should not go outside the “container”
+When any button is clicked, the previous animation on “box” should stop.
+On clicking the “Up” button, the box should move up.
+On clicking the “Down” button, the box should move down.
+On clicking the “Left” button, the box should move left.
+On clicking the “Right” button, the box should move right.
+On clicking the “FadeOut” button, the box should fade and disappear.
+On clicking the “FadeIn” button, the box should reappear.
+On clicking the “Reset” button, the box should
+Be visible
+At the top left of the “container”
+Do not hardcode the dimensions of the box or container inside javascript. Use css jquery methods to get the width and height (see last link in Materials in Bb)
